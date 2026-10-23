@@ -1,0 +1,17 @@
+[flake8]
+# Игнорируем автоматически создаваемые файлы и окружение
+exclude =
+    .git,
+    __pycache__,
+    migrations,
+    venv,
+    env,
+    .venv
+
+# Максимально допустимая длина строки по PEP 8 (или 88/120, если используется Black)
+max-line-length = 119
+
+# Настройка отображения ошибок
+show-source = True
+statistics = True
+count = True

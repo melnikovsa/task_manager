@@ -1,0 +1,56 @@
+# === Python ===
+# Кэш компиляции Python файлов
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Дистрибутивы, упаковка и метаданные пакетов
+*.egg-info/
+.eggs/
+dist/
+build/
+beans/
+
+# === Виртуальные окружения ===
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Django ===
+# Локальная БД (если использовалась для тестов)
+*.sqlite3
+db.sqlite3
+
+# Статика и медиа файлы, загружаемые пользователями (если появятся)
+/static/
+/media/
+
+# === Секреты и переменные окружения ===
+.env
+.env.[a-zA-Z]*
+!.env.example
+
+# === Линтеры и инструменты тестирования ===
+.pytest_cache/
+.coverage
+htmlcov/
+.flake8_cache/
+
+# === Docker ===
+# Локальные данные контейнеров
+.docker/
+
+# === IDE и редакторы кода ===
+# JetBrains (PyCharm)
+.idea/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Временные файлы систем (macOS / Windows)
+.DS_Store
+Thumbs.db
